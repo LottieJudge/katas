@@ -8,11 +8,19 @@ class ScrabbleTest(unittest.TestCase):
      self.assertEqual( scrabble_point_convertor('AA'), 2)
   
   def test_converts_the_letter_B(self):
-     self.assertEqual( scrabble_point_convertor)
+     self.assertEqual( scrabble_point_convertor('B'), 3)
 
 
 def scrabble_point_convertor(word):
-   return len(word)
+   letter_to_points = {
+      'A': 1, 'B': 3
+   }
+   result = 0
+  
+
+
+   return result
+
 
 
 
